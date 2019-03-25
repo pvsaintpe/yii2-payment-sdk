@@ -36,9 +36,6 @@
       "pvsaintpe\\sdk\\": ""
     }
   },
-  "extra": {
-    "bootstrap": "pvsaintpe\\sdk\\Bootstrap"
-  },
   "config": {
     "fxp-asset.installer-paths": {
         "npm-asset-library": "vendor/npm",
