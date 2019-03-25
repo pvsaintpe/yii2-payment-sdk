@@ -1,0 +1,48 @@
+{
+  "name": "pvsaintpe/yii2-payment-sdk",
+  "description": "Package",
+  "keywords": [
+    "yii2",
+    "payment",
+    "neteller",
+    "skrill",
+    "w1",
+    "wallet one",
+    "decta",
+    "api"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pavel Veselov",
+      "email": "pvsaintpe@icloud.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "yiisoft/yii2": "2.0.16.1",
+    "pvsaintpe/yii2-helpers": "*",
+    "pvsaintpe/yii2-walletone-client": "1.*",
+    "pvsaintpe/yii2-bitaps-client": "1.*",
+    "pvsaintpe/yii2-decta-client": "1.*",
+    "pvsaintpe/yii2-skrill-client": "1.*",
+    "pvsaintpe/yii2-neteller-client": "1.*",
+    "phpdocumentor/reflection": "*",
+    "codeception/codeception": "2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "pvsaintpe\\sdk\\": ""
+    }
+  },
+  "extra": {
+    "bootstrap": "pvsaintpe\\sdk\\Bootstrap"
+  },
+  "config": {
+    "fxp-asset.installer-paths": {
+        "npm-asset-library": "vendor/npm",
+        "bower-asset-library": "vendor/bower"
+    }
+  }
+}
